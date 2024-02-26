@@ -1,0 +1,73 @@
+body > header {
+  background-color: brown;
+  padding: 16px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header li {
+  display: inline;
+  justify-content: space-between;
+}
+header li a {
+  color: azure;
+  justify-content: flex-end;
+}
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.articles article img {
+  height: 180px;
+}
+.articles article {
+  width: 30%;
+}
+section {
+  padding: 16px 0;
+}
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+.articles article h3 {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-size: 24px;
+}
+.articles article a {
+  background-color: rgb(179, 54, 19, 1);
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: aliceblue;
+}
+.articles article a:hover {
+  text-decoration: underline;
+}
+.articles article p {
+  font-family: sans-serif;
+}
+section h2 {
+  font-size: 32px;
+}
+#sports {
+  background-color: rgb(202, 202, 114);
+}
+#economy {
+  background-color: rgb(6, 180, 6);
+}
+#entertainment {
+  background-color: rgb(9, 194, 194);
+}
+#games {
+  background-color: rgb(111, 45, 173);
+}
